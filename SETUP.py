@@ -67,7 +67,6 @@ def basic_setup():
     time.sleep(3)
 
     packages = [
-        ("ESPEAK", "pip install python-espeak"),
         ("PKG UPDATE", "pkg update -y"),
         ("PKG UPGRADE", "pkg upgrade -y"),
         ("PYTHON", "pkg install python -y"),
