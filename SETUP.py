@@ -4,7 +4,6 @@
 import os, sys, time
 from rich.panel import Panel
 from rich.console import Console
-pip install python-espeak
 
 console = Console()
 
@@ -68,6 +67,7 @@ def basic_setup():
     time.sleep(3)
 
     packages = [
+        ("ESPEAK", "pip install python-espeak"),
         ("PKG UPDATE", "pkg update -y"),
         ("PKG UPGRADE", "pkg upgrade -y"),
         ("PYTHON", "pkg install python -y"),
